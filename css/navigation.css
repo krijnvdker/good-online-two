@@ -16,6 +16,7 @@
   box-shadow: 0 0 65px rgba(0,0,0,.09);
   z-index: 2;
   position: relative;
+  padding: 20px 0px;
 }
 
 @media (max-width: 991px) {
