@@ -2240,8 +2240,8 @@ f) Overlays
 .feature-flex-icon i {
     color: #fff;
     border-radius: 50%;
-    background-image: linear-gradient(120deg, rgba(210, 30, 43, .6) 0%, #FF9900 100%);
-    padding: 21.5px 22px;
+    background: #FF9900;
+    padding: 12px 12px;
     font-size: 40px;
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
