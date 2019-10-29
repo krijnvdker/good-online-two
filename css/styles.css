@@ -8542,3 +8542,8 @@ Styles 4
 #footer-logo{
     width: 45%;
 }
+
+.self-picture h6{
+    margin-top: 30px;
+    text-align: right;
+}

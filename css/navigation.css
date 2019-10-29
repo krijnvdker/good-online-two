@@ -1,6 +1,11 @@
 /*--------------------
   Classic Navbar
 ----------------------*/
+.nav-brand .main-logo{
+  max-height: 100px;
+  margin-top: -2px;
+}
+
 .navigation {
   width: 100%;
   height: 95px;
