@@ -2293,6 +2293,7 @@ f) Overlays
     color: #111;
     font-size: 21px;
     font-weight: 400;
+    pointer-events: none;
 }
 
 .feature-flex-content p {
@@ -3653,6 +3654,7 @@ footer h3:after {
     background: #222;
     margin-top: 4px;
     border-radius: 5px;
+    pointer-events: none;
 }
 
 .footer-tags a:hover {
@@ -5600,7 +5602,8 @@ Top Video Section
     color: #111;
     font-size: 22px;
     font-weight: 400;
-    position: absolute;
+    position: absolute;         
+    pointer-events: none;
     top: 60%;
     left: 50%;
     opacity: 0;
@@ -6090,16 +6093,16 @@ Top Video Section
 }
 
 .services-single-menu ul li a:hover {
-    -webkit-box-shadow: 3px 0px 0px 0px rgba(210, 30, 43, 1) inset;
-    -moz-box-shadow: 3px 0px 0px 0px rgba(210, 30, 43, 1) inset;
-    box-shadow: 3px 0px 0px 0px rgba(210, 30, 43, 1) inset;
+    -webkit-box-shadow: 3px 0px 0px 0px rgba(255, 153, 0, 1) inset;
+    -moz-box-shadow: 3px 0px 0px 0px rgba(255, 153, 0, 1) inset;
+    box-shadow: 3px 0px 0px 0px rgba(255, 153, 0, 1) inset;
 }
 
 
 .services-active {
-    -webkit-box-shadow: 3px 0px 0px 0px rgba(210, 30, 43, 1) inset;
-    -moz-box-shadow: 3px 0px 0px 0px rgba(210, 30, 43, 1) inset;
-    box-shadow: 3px 0px 0px 0px rgba(210, 30, 43, 1) inset;
+    -webkit-box-shadow: 3px 0px 0px 0px rgba(255, 153, 0, 1) inset;
+    -moz-box-shadow: 3px 0px 0px 0px rgba(255, 153, 0, 1) inset;
+    box-shadow: 3px 0px 0px 0px rgba(255, 153, 0, 1) inset;
 }
 
 
@@ -8550,4 +8553,8 @@ Styles 4
 
 .self-about-us h6{
     margin-top: 30px;
+}
+
+.top-bar-info a{
+    color: white;
 }
