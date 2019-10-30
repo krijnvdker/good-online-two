@@ -161,8 +161,34 @@
     </div>
     <div class="mt-50">
       <div class="contact-form-box">
+      
+        <?php
+            if(isset($_POST['email']))
+            {
+            $name = trim($_POST["name"]);
+            $email = trim($_POST["email"]);
+            $subject = trim($_POST["subject"]);
+            $message = trim($_POST["message"]);
+            if(strlen($name)<2) {
+                print "<p>Please type your name.</p>";
+            }else if(strlen($subject)<2) {
+                print "<p>Please type a subject.</p>";
+            }else if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                print  "<p>Please type a valid email address.</p>";
+            }else if(strlen($message)<10) {
+                print "<p>Please type your message.</p>";
+            }else{
+                        $headers =  'From: '.$email. "\r\n" .
+                                    'Reply-To: '.$email . "\r\n" .
+                                    'X-Mailer: PHP/' . phpversion();
+                mail('krijnvdker@gmail.com',$subject,$message,$headers);
+                print "mail succesuffully sent";
+            }
+
+        }
+        ?>
         <!-- Form Start -->
-        <form class="contact-form row">
+        <form class="contact-form row" name="template-contactform" action="" method="post">
           <div class="col-md-6 col-sm-6 col-12">
             <input type="text" name="name" placeholder="Naam">
           </div>
@@ -183,7 +209,7 @@
             </div>
           </div>
         </form>
-        <!-- Form End -->
+        <!-- Form End --> 
       </div>
     </div>
   </div>
