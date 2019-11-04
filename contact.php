@@ -3,7 +3,7 @@
 <head>
   <title>Good online | Online media bureau</title>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" href="./img/logo.png"/>
+  <link rel="shortcut icon" href="img/favicon-256x256.ico" type="image/x-icon"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Bootstrap CSS-->
@@ -54,18 +54,17 @@
       <div class="col-md-9 col-12">
         <div class="top-bar-info">
           <ul>
-            <li><i class="fa fa-phone"></i>(+31) 6 2705 8588
+            <li><a href="tel:0031627058588"><i class="fa fa-phone"></i>(+31) 6 2705 8588</a>
             <li>
-            <li><i class="fa fa-envelope"></i>info@good-online.nl
+            <li><a href="mailto:info@good-online.nl"><i class="fa fa-envelope"></i>info@good-online.nl</a>
             <li>
           </ul>
         </div>
       </div>
       <div class="col-md-3 col-12">
         <ul class="social-icons hidden-md-down">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com/Good-Online-101258787976703"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/goodonline.nl/"><i class="fa fa-instagram"></i></a></li>
         </ul>
       </div>
     </div>
@@ -94,7 +93,7 @@
           </ul>
         </li>
         <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./contact.php">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -254,7 +253,7 @@
           <li><a href="diensten/webshop-maken.html">Webshop maken</a></li>
           <li><a href="diensten/online-marketing.html">Online marketing</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
       <!-- Column 2 End -->
