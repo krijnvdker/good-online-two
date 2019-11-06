@@ -42,8 +42,6 @@ $('#preloader').fadeOut('normall', function () {
 
 
 $(document).ready(function () {
-
-
   /*------------------------------------
       1. Owl Carousel
   --------------------------------------*/

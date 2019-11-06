@@ -35,6 +35,9 @@
   <!-- Fonts Google -->
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
+<!-- Google Map -->
+<script src="js/map.js"></script>
+
 </head>
 <body>
 
@@ -76,24 +79,24 @@
 <header>
   <nav id="navigation4" class="container navigation">
     <div class="nav-header">
-      <a class="nav-brand" href="./index.html">
+      <a class="nav-brand" href="./">
         <img src="./img/logos/logo.png" class="main-logo" alt="logo" id="main_logo">
       </a>
       <div class="nav-toggle"></div>
     </div>
     <div class="nav-menus-wrapper">
       <ul class="nav-menu align-to-right">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./over-ons.html">Over ons</a></li>
+        <li><a href="./">Home</a></li>
+        <li><a href="./over-ons">Over ons</a></li>
         <li><a href="#">Diensten</a>
           <ul class="nav-dropdown">
-            <li><a href="./diensten/website-maken.php">Website maken</a></li>
-            <li><a href="./diensten/webshop-maken.php">Webhop maken</a></li>
-            <li><a href="./diensten/online-marketing.php">Online marketing</a></li>
+            <li><a href="./diensten/website-maken">Website maken</a></li>
+            <li><a href="./diensten/webshop-maken">Webhop maken</a></li>
+            <li><a href="./diensten/online-marketing">Online marketing</a></li>
           </ul>
         </li>
-        <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contact.php">Contact</a></li>
+        <li><a href="./portfolio">Portfolio</a></li>
+        <li><a href="./contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -105,8 +108,8 @@
   <div class="container">
     <h1>Contact</h1>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="contact-2.html">Contact</a></li>
+      <li><a href="">Home</a></li>
+      <li><a href="contact-2">Contact</a></li>
     </ul>
   </div>
 </div>
@@ -219,7 +222,7 @@
 
 <!-- Map START -->
 <div id="map">
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA&callback=initMap">
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0d_LIoeAsa6C7C4IuipIgXyaLe_VGDf4&callback=initMap">
   </script>
 </div>
 <!-- Map START -->
@@ -234,7 +237,7 @@
         <h3>Good Online</h3>
         <div class="mt-25">
           <img src="img/logo-white.png" id="footer-logo" alt="footer-logo">
-          <p class="mt-25">Wij zijn Good Online. Het bedrijf met passie voor alles wat digitaal en online is. Door onze liefde voor online in combinatie met kennis van de nieuwste technieken willen we het optimale resultaat uit uw probleem of vraagstuk halen.</p>
+          <p class="mt-25">Wij zijn Good Online. Het bedrijf met passie voor alles wat digitaal en online is. Door onze liefde voor online in combinatie met kennis van de nieuwste technieken willen we het optimale resultaat uit je probleem of vraagstuk halen.</p>
           <div class="footer-social-icons mt-25">
             <ul>
               <li><a href="https://www.facebook.com/Good-Online-101258787976703"><i class="fa fa-facebook-square"></i></a></li>
@@ -249,13 +252,13 @@
       <div class="col-md-3 col-sm-6 col-12">
         <h3>Linkjes</h3>
         <ul class="footer-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="over-ons.html">Over ons</a></li>
-          <li><a href="diensten/website-maken.php">Website maken</a></li>
-          <li><a href="diensten/webshop-maken.php">Webshop maken</a></li>
-          <li><a href="diensten/online-marketing.php">Online marketing</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="over-ons">Over ons</a></li>
+          <li><a href="diensten/website-maken">Website maken</a></li>
+          <li><a href="diensten/webshop-maken">Webshop maken</a></li>
+          <li><a href="diensten/online-marketing">Online marketing</a></li>
+          <li><a href="portfolio">Portfolio</a></li>
+          <li><a href="contact">Contact</a></li>
         </ul>
       </div>
       <!-- Column 2 End -->
@@ -379,9 +382,6 @@
 
 <!-- Modernizr -->
 <script src="js/modernizr.js"></script>
-
-<!-- Google Map -->
-<script src="js/map.js"></script>
 
 <!-- Main JS -->
 <script src="js/main.js"></script>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-  <title>Website maken</title>
+  <title>Good Online | Website maken</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="../img/favicon-256x256.ico" type="image/x-icon"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -76,24 +76,24 @@
 <header>
   <nav id="navigation4" class="container navigation">
     <div class="nav-header">
-      <a class="nav-brand" href="../index.html">
+      <a class="nav-brand" href="../">
         <img src="../img/logos/logo.png" class="main-logo" alt="logo" id="main_logo">
       </a>
       <div class="nav-toggle"></div>
     </div>
     <div class="nav-menus-wrapper">
       <ul class="nav-menu align-to-right">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../over-ons.html">Over ons</a></li>
+        <li><a href="../">Home</a></li>
+        <li><a href="../over-ons">Over ons</a></li>
         <li><a href="#">Diensten</a>
           <ul class="nav-dropdown">
-            <li><a href="website-maken.php">Website maken</a></li>
-            <li><a href="webshop-maken.php">Webhop maken</a></li>
-            <li><a href="online-marketing.php">Online marketing</a></li>
+            <li><a href="website-maken">Website maken</a></li>
+            <li><a href="webshop-maken">Webhop maken</a></li>
+            <li><a href="online-marketing">Online marketing</a></li>
           </ul>
         </li>
-        <li><a href="../portfolio.html">Portfolio</a></li>
-        <li><a href="../contact.php">Contact</a></li>
+        <li><a href="../portfolio">Portfolio</a></li>
+        <li><a href="../contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -105,9 +105,9 @@
   <div class="container">
     <h1>Website maken</h1>
     <ul>
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="../">Home</a></li>
       <li><a href="#">Diensten</a></li>
-      <li><a href="website-maken.php">Website maken</a></li>
+      <li><a href="website-maken">Website maken</a></li>
     </ul>
   </div>
 </div>
@@ -127,9 +127,9 @@
           </div>
           <div class="services-single-menu mt-30">
             <ul>
-              <li class="services-active"><a href="website-maken.php">Website maken</a></li>
-              <li><a href="webshop-maken.php">Webshop maken</a></li>
-              <li><a href="online-marketing.php">Online marketing</a></li>
+              <li class="services-active"><a href="website-maken">Website maken</a></li>
+              <li><a href="webshop-maken">Webshop maken</a></li>
+              <li><a href="online-marketing">Online marketing</a></li>
             </ul>
           </div>
           <!-- Vertical Menu END -->
@@ -184,7 +184,7 @@
       <div class="col-md-9 col-sm-8 col-12">
         <div class="services-single-right">
           <div class="text-content-big mt-20">
-            <p>Een website is het digitale uithangbord voor uw organisatie. Wij helpen u om dit goed vorm te geven en neer te zetten. Met onze expertise en uw doelen willen we een website maken die optimaal past bij uw doelgroep. Daarvoor gaan we eerst met u in gesprek over de doelen die u wil bereiken met de website. Heeft u daar geen duidelijk beeld van? Geen probleem, we bespreken samen wat de mogelijke doelen kunnen zijn. Op basis van die doelen en de doelgroep gaan we aan de slag om het perfecte plaatje neer te zetten.</p>
+            <p>Een website is het digitale uithangbord voor je organisatie. Wij helpen je om dit goed vorm te geven en neer te zetten. Met onze expertise en jouw doelen willen we een website maken die optimaal past bij je doelgroep. Daarvoor gaan we eerst met je in gesprek over de doelen die je wil bereiken met de website. Heb je daar geen duidelijk beeld van? Geen probleem, we bespreken samen wat de mogelijke doelen kunnen zijn. Op basis van die doelen en de doelgroep gaan we aan de slag om het perfecte plaatje neer te zetten.</p>
           </div>
 
           <!-- Accordions START -->
@@ -200,7 +200,7 @@
               </div>
               <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body accordion-body">
-                  Wij zorgen er voor dat de website die we leveren altijd makkelijk te beheren is door u of een werknemer van uw. Dat wil zeggen dat we er voor zorgen dat er een systeem achter zit wat bij uw website past. In het systeem wat erachter zit kunt u zelf teksten, afbeeldingen en allerlei andere dingen bijhouden en aanpassen. 
+                  Wij zorgen er voor dat de website die we leveren altijd makkelijk te beheren is door jou of een werknemer van jouw. Dat wil zeggen dat we er voor zorgen dat er een systeem achter zit wat bij je website past. In het systeem wat erachter zit kunt je zelf teksten, afbeeldingen en allerlei andere dingen bijhouden en aanpassen. 
                 </div>
               </div>
             </div>
@@ -216,7 +216,7 @@
               </div>
               <div id="collapseTwo" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body accordion-body">
-                  Een website is een uithangbord voor uw organisatie. Daarom kan het niet zo zijn dat ierdere website hetzelfde is. We voorzien iedere website van een uniek design wat herkenbaar is voor uw organisatie en wat naadloos aansluit op de doelen en doelgroep van uw organisatie. Nadat jullie als klant en wij als designpartner tevreden zijn over het uiteindelijke ontwerp begint de technische fase. Hierin gaan we zorgen dat het unieke ontwerp wat is gemaakt technisch perfect wordt gerealiseerd met een beheersysteem erachter. Door onze technische kennis en vaardigheden kunnen we u garanderen dat de website technisch perfect werkt.
+                  Een website is een uithangbord voor je organisatie. Daarom kan het niet zo zijn dat ierdere website hetzelfde is. We voorzien iedere website van een uniek design wat herkenbaar is voor je organisatie en wat naadloos aansluit op de doelen en doelgroep van je organisatie. Nadat jullie als klant en wij als designpartner tevreden zijn over het uiteindelijke ontwerp begint de technische fase. Hierin gaan we zorgen dat het unieke ontwerp wat is gemaakt technisch perfect wordt gerealiseerd met een beheersysteem erachter. Door onze technische kennis en vaardigheden kunnen we je garanderen dat de website technisch perfect werkt.
                 </div>
               </div>
             </div>
@@ -248,7 +248,7 @@
               </div>
               <div id="collapseFour" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFour">
                 <div class="panel-body accordion-body">
-                  Bij alle websites die we opleveren staat zoekmachine vriendelijkheid heel hoog in het vaandel. In de tijd waarin we leven met een online moordende concurrentie is het heel belangrijk dat u als organisatie met uw website goed gevonden wordt in Google. Is dat niet het geval? Dan wordt u voorbij gestreefd door de concurrentie en daalt het rendement van de website enorm. Omdat het zo belangrijk is om goed gevonden te worden op Google, zorgen wij ervoor dat de website daar ook goed op ingericht is. Zowel op technisch gebied als op ontwerp gebied. Daarnaast vertellen we u alle dingen die u moet weten en zelf kunt doen om uw website zo hoog mogelijk in Google te krijgen. 
+                  Bij alle websites die we opleveren staat zoekmachine vriendelijkheid heel hoog in het vaandel. In de tijd waarin we leven met een online moordende concurrentie is het heel belangrijk dat je als organisatie met je website goed gevonden wordt in Google. Is dat niet het geval? Dan word je voorbij gestreefd door de concurrentie en daalt het rendement van de website enorm. Omdat het zo belangrijk is om goed gevonden te worden in Google, zorgen wij ervoor dat de website daar ook goed op ingericht is. Zowel op technisch gebied als op ontwerp gebied. Daarnaast vertellen we je alle dingen die je moet weten en zelf kunt doen om je website zo hoog mogelijk in Google te krijgen. 
                 </div>
               </div>
             </div>
@@ -264,7 +264,7 @@
               </div>
               <div id="collapseFive" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFive">
                 <div class="panel-body accordion-body">
-                  Als de website live staat zijn we niet klaar. In de eerste plaats laten we u zien hoe u uw website beheert en zelf kunt onderhouden. Daarnaast bieden wij vanzelfsprekend support voor de producten die wij leveren, dus mocht er iets niet duidelijk zijn of problemen zijn dan zorgen we altijd voor een gepaste oplossing. Daarnaast is het altijd mogelijk om uw website in een later stadium door te ontwikkelen.
+                  Als de website live staat zijn we niet klaar. In de eerste plaats laten we je zien hoe je jouw website beheert en zelf kunt onderhouden. Daarnaast bieden wij vanzelfsprekend support voor de producten die wij leveren, dus mocht er iets niet duidelijk zijn of problemen zijn dan zorgen we altijd voor een gepaste oplossing. Daarnaast is het altijd mogelijk om je website in een later stadium door te ontwikkelen.
                 </div>
               </div>
             </div>
@@ -287,7 +287,7 @@
       <span>Zin in een kop koffie of thee?</span>
       <h2><strong>Maak kennis met ons!</strong></h2>  
       <h4>Of stel gewoon een vraag ;-)</h4>
-      <a href="../contact.php" class="primary-button button-md mt-10">Neem contact op</a>
+      <a href="../contact" class="primary-button button-md mt-10">Neem contact op</a>
     </div>
   </div>
 </div>
@@ -302,7 +302,7 @@
         <h3>Good Online</h3>
         <div class="mt-25">
           <img src="../img/logo-white.png" id="footer-logo" alt="footer-logo">
-          <p class="mt-25">Wij zijn Good Online. Het bedrijf met passie voor alles wat digitaal en online is. Door onze liefde voor online in combinatie met kennis van de nieuwste technieken willen we het optimale resultaat uit uw probleem of vraagstuk halen.</p>
+          <p class="mt-25">Wij zijn Good Online. Het bedrijf met passie voor alles wat digitaal en online is. Door onze liefde voor online in combinatie met kennis van de nieuwste technieken willen we het optimale resultaat uit je probleem of vraagstuk halen.</p>
           <div class="footer-social-icons mt-25">
             <ul>
               <li><a href="https://www.facebook.com/Good-Online-101258787976703"><i class="fa fa-facebook-square"></i></a></li>
@@ -317,13 +317,13 @@
       <div class="col-md-3 col-sm-6 col-12">
         <h3>Linkjes</h3>
         <ul class="footer-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../over-ons.html">Over ons</a></li>
-          <li><a href="website-maken.php">Website maken</a></li>
-          <li><a href="webshop-maken.php">Webshop maken</a></li>
-          <li><a href="online-marketing.php">Online marketing</a></li>
-          <li><a href="../portfolio.html">Portfolio</a></li>
-          <li><a href="../contact.php">Contact</a></li>
+          <li><a href="../">Home</a></li>
+          <li><a href="../over-ons">Over ons</a></li>
+          <li><a href="website-maken">Website maken</a></li>
+          <li><a href="webshop-maken">Webshop maken</a></li>
+          <li><a href="online-marketing">Online marketing</a></li>
+          <li><a href="../portfolio">Portfolio</a></li>
+          <li><a href="../contact">Contact</a></li>
         </ul>
       </div>
       <!-- Column 2 End -->

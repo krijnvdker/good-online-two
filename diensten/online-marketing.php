@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-  <title>Website maken</title>
+  <title>Good Online | Online Marketing</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="../img/favicon-256x256.ico" type="image/x-icon"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -76,24 +76,24 @@
 <header>
   <nav id="navigation4" class="container navigation">
     <div class="nav-header">
-      <a class="nav-brand" href="../index.html">
+      <a class="nav-brand" href="../">
         <img src="../img/logos/logo.png" class="main-logo" alt="logo" id="main_logo">
       </a>
       <div class="nav-toggle"></div>
     </div>
     <div class="nav-menus-wrapper">
       <ul class="nav-menu align-to-right">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../over-ons.html">Over ons</a></li>
+        <li><a href="../">Home</a></li>
+        <li><a href="../over-ons">Over ons</a></li>
         <li><a href="#">Diensten</a>
           <ul class="nav-dropdown">
-            <li><a href="website-maken.php">Website maken</a></li>
-            <li><a href="webshop-maken.php">Webhop maken</a></li>
-            <li><a href="online-marketing.php">Online marketing</a></li>
+            <li><a href="website-maken">Website maken</a></li>
+            <li><a href="webshop-maken">Webhop maken</a></li>
+            <li><a href="online-marketing">Online marketing</a></li>
           </ul>
         </li>
-        <li><a href="../portfolio.html">Portfolio</a></li>
-        <li><a href="../contact.php">Contact</a></li>
+        <li><a href="../portfolio">Portfolio</a></li>
+        <li><a href="../contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -106,9 +106,9 @@
   <div class="container">
     <h1>Online marketing</h1>
     <ul>
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="../">Home</a></li>
       <li><a href="#">Diensten</a></li>
-      <li><a href="online-marketing.php">Online marketing</a></li>
+      <li><a href="online-marketing">Online marketing</a></li>
     </ul>
   </div>
 </div>
@@ -128,9 +128,9 @@
           </div>
           <div class="services-single-menu mt-30">
             <ul>
-              <li><a href="website-maken.php">Website maken</a></li>
-              <li><a href="webshop-maken.php">Webshop maken</a></li>
-              <li class="services-active"><a href="online-marketing.php">Online marketing</a></li>
+              <li><a href="website-maken">Website maken</a></li>
+              <li><a href="webshop-maken">Webshop maken</a></li>
+              <li class="services-active"><a href="online-marketing">Online marketing</a></li>
             </ul>
           </div>
           <!-- Vertical Menu END -->
@@ -185,7 +185,7 @@
       <div class="col-md-9 col-sm-8 col-12">
         <div class="services-single-right">
           <div class="text-content-big mt-20">
-            <p>Online marketing is noodzakelijk om uw organisatie tot een succes te maken. Wat voor doel u ook heeft, online marketing is een must. Wil je de concurrenten achter je laten? Wil je jouw klanten voor een langere tijd aan je binden? Wil je zo veel mogelijk verkopen? Wil je dat je website bij zoveel mogelijk bezoekers terecht komt? Op deze vragen is allemaal het antwoord: Online marketing. Online marketing is op heel veel verschillende manieren in te vullen. Bij iedere organisatie past een andere manier. Daarnaast is een voordeel van online marketing dat het geen hoge investeringsdrempel hoeft te zijn. Met een relatief klein budget kunnen er goede resultaten behaald worden middels online marketing. Onze passie ligt bij het halen van de doelen die jullie als organisatie hebben. Pas als die doelen bereikt zijn, zijn wij tevreden!</p>
+            <p>Online marketing is noodzakelijk om je organisatie tot een succes te maken. Wat voor doel je ook hebt, online marketing is een must. Wil je de concurrenten achter je laten? Wil je jouw klanten voor een langere tijd aan je binden? Wil je zo veel mogelijk verkopen? Wil je dat je website bij zoveel mogelijk bezoekers terecht komt? Op deze vragen is allemaal het antwoord: Online marketing. Online marketing is op heel veel verschillende manieren in te vullen. Bij iedere organisatie past een andere manier. Daarnaast is een voordeel van online marketing dat het geen hoge investeringsdrempel hoeft te zijn. Met een relatief klein budget kunnen er goede resultaten behaald worden middels online marketing. Onze passie ligt bij het nastreven van de doelen die jullie als organisatie hebben. Pas als die doelen bereikt zijn, zijn wij tevreden!</p>
           </div>
 
           <!-- Accordions START -->
@@ -201,7 +201,7 @@
               </div>
               <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body accordion-body"> 
-                  Social media is in de afgelopen jaren steeds belangrijker geworden. Niet alleen de ‘traditionele social media’ zoals Facebook en Twitter zijn belangrijk maar ook een medium als Snapchat is een belangrijk kanaal voor de jongere doelgroep bijvoorbeeld. Wij kunnen ons voorstellen dat u het lastig vindt om de social media kanalen in te richten en bij te houden voor uw organisatie. Wij kunnen u daarbij helpen. We helpen met het opzetten en inrichten van uw social media kanalen maar maken ook een planning voor uw content, wanneer kunt u wat plaatsen? Daarnaast zijn er steeds meer advertentiemogelijkheden op bijvoorbeeld Facebook en Instagram. Wij helpen u met het samenstellen van budgetten voor deze advertentiemogelijkheden en het vormgeven van de advertenties. 
+                  Social media is in de afgelopen jaren steeds belangrijker geworden. Niet alleen de ‘traditionele social media’ zoals Facebook en Twitter zijn belangrijk maar ook een medium als Snapchat is een belangrijk kanaal voor de jongere doelgroep bijvoorbeeld. Wij kunnen ons voorstellen dat je het lastig vind om de social media kanalen in te richten en bij te houden voor je organisatie. Wij kunnen je daarbij helpen. We helpen met het opzetten en inrichten van je social media kanalen maar maken ook een planning voor je content, wanneer kun je wat plaatsen? Daarnaast zijn er steeds meer advertentiemogelijkheden op bijvoorbeeld Facebook en Instagram. Wij helpen je met het samenstellen van budgetten voor deze advertentiemogelijkheden en het vormgeven van de advertenties. 
                 </div>
               </div>
             </div>
@@ -217,7 +217,7 @@
               </div>
               <div id="collapseTwo" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body accordion-body">
-                  Misschien wel een van de oudste online media kanalen: Mail! Mensen mailen al redelijk lang met elkaar. Doordat er met mail veel mensen in een keer te bereiken zijn is het een redelijk goedkope manier om uw product of dienst onder de aandacht te brengen. Wat verstaan we onder een mailing? In een mailing is veel mogelijk, maar de nieuwsbrief is het meest gebruikte voorbeeld. Maar hoe wordt er geld verdiend met een nieuwsbrief? De eerste mogelijkheid is een mailing sturen naar je hele klantenbestand. Hier komt vervolgens een percentage kliks uit waar uiteindelijk een sale uit voort kan komen. Daarnaast is het mogelijk om gericht te mailen. Zo kun je een persoon die een aantal keren de website heeft bezocht in de afgelopen dagen een extra mailing sturen met bijvoorbeeld een kortingscode waardoor hij overgehaald kan worden tot aankoop van het product of de dienst.
+                  Misschien wel een van de oudste online media kanalen: Mail! Mensen mailen al redelijk lang met elkaar. Doordat er met mail veel mensen in een keer te bereiken zijn is het een redelijk goedkope manier om je product of dienst onder de aandacht te brengen. Wat verstaan we onder een mailing? In een mailing is veel mogelijk, maar de nieuwsbrief is het meest gebruikte voorbeeld. Maar hoe wordt er geld verdiend met een nieuwsbrief? De eerste mogelijkheid is een mailing sturen naar je hele klantenbestand. Hier komt vervolgens een percentage kliks uit waar uiteindelijk een sale uit voort kan komen. Daarnaast is het mogelijk om gericht te mailen. Zo kun je een persoon die een aantal keren de website heeft bezocht in de afgelopen dagen een extra mailing sturen met bijvoorbeeld een kortingscode waardoor hij overgehaald kan worden tot aankoop van het product of de dienst.
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@
               </div>
               <div id="collapseThree" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body accordion-body">
-                  SEO, oftewel zoekmachine optimalisatie in het Nederlands. SEO zorgt ervoor dat potentiële klanten je website kunnen vinden als ze bijvoorbeeld zoeken in Google. Daarom is het heel belangrijk om je website goed in te richten voor Google. Zodat potentiële klanten jouw website of webshop eerder tegenkomen in Google dan die van je concurrent. Als de webshop of website na optimalisatie bovenaan staat in Google betekent het niet dat het klaar is. SEO is een doorlopend proces. Google verandert vaak haar algoritmes waardoor er andere zaken belangrijk worden om uw website of webshop hoog in Google te krijgen. Daarnaast zullen andere organisaties ook proberen hun websites of webshops zo hoog mogelijk in Google te krijgen. Het is zaak om deze organisaties voor te blijven.
+                  SEO, oftewel zoekmachine optimalisatie in het Nederlands. SEO zorgt ervoor dat potentiële klanten je website kunnen vinden als ze bijvoorbeeld zoeken in Google. Daarom is het heel belangrijk om je website goed in te richten voor Google. Zodat potentiële klanten jouw website of webshop eerder tegenkomen in Google dan die van je concurrent. Als de webshop of website na optimalisatie bovenaan staat in Google betekent het niet dat het klaar is. SEO is een doorlopend proces. Google verandert vaak haar algoritmes waardoor er andere zaken belangrijk worden om je website of webshop hoog in Google te krijgen. Daarnaast zullen andere organisaties ook proberen hun websites of webshops zo hoog mogelijk in Google te krijgen. Het is zaak om deze organisaties voor te blijven.
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@
               </div>
               <div id="collapseFour" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFour">
                 <div class="panel-body accordion-body">
-                  SEA, oftewel zoekmachine adverteren. Je kent ze waarschijnlijk wel, de bovenste advertenties in Google. Of de advertenties aan rechterkant van de zoekresultaten. Dit zijn de betaalde zoekresultaten. Er zijn een aantal redenen om te betalen voor je Google advertenties. De eerste is dat je direct resultaat krijgt. Om je website of webshop hoog in Google te krijgen met organische zoekresultaten (SEO) kost enige tijd. Met betaalde advertenties is dat niet het geval. Daarnaast heb je altijd een prominente plaats bovenin de zoekresultaten op de zoekwoorden die je instelt. Het laatste grote voordeel van SEA is dat je een specifieke doelgroep kan targetten met je zoekresultaten. Je kunt je advertentie bijvoorbeeld tonen aan mensen die uit een bepaald gebied of een bepaalde stad komen. Die advertentie kun je ook op een bepaald tijdstip tonen. 
+                  SEA, oftewel zoekmachine adverteren. Je kent ze waarschijnlijk wel, de bovenste advertenties in Google. Of de advertenties aan rechterkant van de zoekresultaten, dit zijn de betaalde zoekresultaten. Er zijn een aantal redenen om te betalen voor je Google advertenties. De eerste is dat je direct resultaat krijgt. Om je website of webshop hoog in Google te krijgen met organische zoekresultaten (SEO) kost enige tijd. Met betaalde advertenties is dat niet het geval. Daarnaast heb je altijd een prominente plaats bovenin de zoekresultaten op de zoekwoorden die je instelt. Het laatste grote voordeel van SEA is dat je een specifieke doelgroep kan targetten met je zoekresultaten. Je kunt je advertentie bijvoorbeeld tonen aan mensen die uit een bepaald gebied of een bepaalde stad komen. Die advertentie kun je ook op een bepaald tijdstip tonen. 
                 </div>
               </div>
             </div>
@@ -265,7 +265,7 @@
               </div>
               <div id="collapseFive" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFive">
                 <div class="panel-body accordion-body">
-                  Is uw website of webshop wel ‘google-proof’? Behaald uw website of webshop niet de gewenste ranking in Google? De oorzaak van deze problemen zou wel eens aan de technische opbouw van uw website of webshop kunnen liggen. Laat uw website of webshop bij ons testen. Wij analyseren alle punten waar Google rekening mee houdt in haar ranking. Na de analyse maken we een plan met verbeterpunten waardoor uw website beter gaat presteren in de Google ranking.
+                  Is je website of webshop wel ‘google-proof’? Behaald uw website of webshop niet de gewenste ranking in Google? De oorzaak van deze problemen zou wel eens aan de technische opbouw van uw website of webshop kunnen liggen. Laat je website of webshop bij ons testen. Wij analyseren alle punten waar Google rekening mee houdt in haar ranking. Na de analyse maken we een plan met verbeterpunten waardoor je website beter gaat presteren in de Google ranking.
                 </div>
               </div>
             </div>
@@ -281,8 +281,8 @@
               </div>
               <div id="collapseSix" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingSix">
                 <div class="panel-body accordion-body">
-                  De hoeveelheid data die beschikbaar is voor alle online media is tegenwoordig heel erg veel. Maar wat kun je met die data? En waar kun je die data überhaupt vinden? We kunnen ons voorstellen dat dit vragen zijn waar jullie als organisatie het antwoord op schuldig moeten blijven. Geen probleem! Good Online is dé specialist op het gebied van online data. Wij analyseren welke data beschikbaar is en hoe die data bij kan dragen aan het succes van uw organisatie. 
-Wij analyseren niet alleen data maar maken die data ook voor uw organisatie inzichtelijk. Hierbij kan het gaan om een website, webshop maar ook social media bijvoorbeeld. Doordat u zelf meer inzicht krijg in de data van uw online media en deze data ook begrijpt kunt u zelf ook actie ondernemen op basis van die data.
+                  De hoeveelheid data die beschikbaar is voor online media is enorm. Maar wat kun je met die data? En waar kun je die data überhaupt vinden? We kunnen ons voorstellen dat dit vragen zijn waar jullie als organisatie het antwoord niet van weten. Geen probleem! Good Online is dé specialist op het gebied van online data. Wij analyseren welke data beschikbaar is en hoe die data bij kan dragen aan het succes van uw organisatie. 
+Wij analyseren niet alleen data maar maken die data ook inzichtelijk voor je organisatie. Hierbij kan het gaan om een website, webshop maar ook social media bijvoorbeeld. Doordat je zelf meer inzicht krijg in de data van je online media en die data ook begrijpt kunt je ook zelf actie ondernemen op basis van die data.
                 </div>
               </div>
             </div>
@@ -305,7 +305,7 @@ Wij analyseren niet alleen data maar maken die data ook voor uw organisatie inzi
       <span>Zin in een kop koffie of thee?</span>
       <h2><strong>Maak kennis met ons!</strong></h2>
       <h4>Of stel gewoon een vraag ;-)</h4>
-      <a href="contact.php" class="primary-button button-md mt-10">Neem contact op</a>
+      <a href="contact" class="primary-button button-md mt-10">Neem contact op</a>
     </div>
   </div>
 </div>
@@ -320,7 +320,7 @@ Wij analyseren niet alleen data maar maken die data ook voor uw organisatie inzi
         <h3>Good Online</h3>
         <div class="mt-25">
           <img src="../img/logo-white.png" id="footer-logo" alt="footer-logo">
-          <p class="mt-25">Wij zijn Good Online. Het bedrijf met passie voor alles wat digitaal en online is. Door onze liefde voor online in combinatie met kennis van de nieuwste technieken willen we het optimale resultaat uit uw probleem of vraagstuk halen.</p>
+          <p class="mt-25">Wij zijn Good Online. Het bedrijf met passie voor alles wat digitaal en online is. Door onze liefde voor online in combinatie met kennis van de nieuwste technieken willen we het optimale resultaat uit je probleem of vraagstuk halen.</p>
           <div class="footer-social-icons mt-25">
             <ul>
               <li><a href="https://www.facebook.com/Good-Online-101258787976703"><i class="fa fa-facebook-square"></i></a></li>
@@ -335,13 +335,13 @@ Wij analyseren niet alleen data maar maken die data ook voor uw organisatie inzi
       <div class="col-md-3 col-sm-6 col-12">
         <h3>Linkjes</h3>
         <ul class="footer-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../over-ons.html">Over ons</a></li>
-          <li><a href="website-maken.php">Website maken</a></li>
-          <li><a href="webshop-maken.php">Webshop maken</a></li>
-          <li><a href="online-marketing.php">Online marketing</a></li>
-          <li><a href="../portfolio.html">Portfolio</a></li>
-          <li><a href="../contact.php">Contact</a></li>
+          <li><a href="../">Home</a></li>
+          <li><a href="../over-ons">Over ons</a></li>
+          <li><a href="website-maken">Website maken</a></li>
+          <li><a href="webshop-maken">Webshop maken</a></li>
+          <li><a href="online-marketing">Online marketing</a></li>
+          <li><a href="../portfolio">Portfolio</a></li>
+          <li><a href="../contact">Contact</a></li>
         </ul>
       </div>
       <!-- Column 2 End -->

@@ -2257,7 +2257,7 @@ f) Overlays
         color: #fff;
         border-radius: 50%;
         background-image: linear-gradient(120deg, rgba(210, 30, 43, .6) 0%, #FF9900 100%);
-        padding: 17px;
+        padding: 10px;
         font-size: 32px;
     }
 }
@@ -4768,6 +4768,16 @@ Style 5
 }
 
 @media (max-width: 575px) {
+
+    .section-block {
+        padding: 50px 0px 50px 0px;
+        background-color: #fff;
+    }
+
+    .self-about-us{
+        margin-bottom: 40px;
+    }
+
     .testmonial-box-4-img {
         margin-left: 10px;
     }

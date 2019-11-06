@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-  <title>Website maken</title>
+  <title>Good Online | Webshop maken</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="../img/favicon-256x256.ico" type="image/x-icon"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -76,24 +76,24 @@
 <header>
   <nav id="navigation4" class="container navigation">
     <div class="nav-header">
-      <a class="nav-brand" href="../index.html">
+      <a class="nav-brand" href="../">
         <img src="../img/logos/logo.png" class="main-logo" alt="logo" id="main_logo">
       </a>
       <div class="nav-toggle"></div>
     </div>
     <div class="nav-menus-wrapper">
       <ul class="nav-menu align-to-right">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../over-ons.html">Over ons</a></li>
+        <li><a href="../">Home</a></li>
+        <li><a href="../over-ons">Over ons</a></li>
         <li><a href="#">Diensten</a>
           <ul class="nav-dropdown">
-            <li><a href="website-maken.php">Website maken</a></li>
-            <li><a href="webshop-maken.php">Webhop maken</a></li>
-            <li><a href="online-marketing.php">Online marketing</a></li>
+            <li><a href="website-maken">Website maken</a></li>
+            <li><a href="webshop-maken">Webhop maken</a></li>
+            <li><a href="online-marketing">Online marketing</a></li>
           </ul>
         </li>
-        <li><a href="../portfolio.html">Portfolio</a></li>
-        <li><a href="../contact.php">Contact</a></li>
+        <li><a href="../portfolio">Portfolio</a></li>
+        <li><a href="../contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -106,9 +106,9 @@
   <div class="container">
     <h1>Webshop maken</h1>
     <ul>
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="../">Home</a></li>
       <li><a href="#">Diensten</a></li>
-      <li><a href="webshop-maken.php">Webshop maken</a></li>
+      <li><a href="webshop-maken">Webshop maken</a></li>
     </ul>
   </div>
 </div>
@@ -128,9 +128,9 @@
           </div>
           <div class="services-single-menu mt-30">
             <ul>
-              <li><a href="website-maken.php">Website maken</a></li>
-              <li class="services-active"><a href="webshop-maken.php">Webshop maken</a></li>
-              <li><a href="online-marketing.php">Online marketing</a></li>
+              <li><a href="website-maken">Website maken</a></li>
+              <li class="services-active"><a href="webshop-maken">Webshop maken</a></li>
+              <li><a href="online-marketing">Online marketing</a></li>
             </ul>
           </div>
           <!-- Vertical Menu END -->
@@ -185,7 +185,7 @@
       <div class="col-md-9 col-sm-8 col-12">
         <div class="services-single-right">
           <div class="text-content-big mt-20">
-            <p>In de digitale wereld van tegenwoordig schieten de webshops als paddenstoelen uit de grond. Veel ondernemers proberen hun product via de online kanalen bij hun doelgroep aan de man te krijgen. Deze trend is logisch, het zal u niet verrassen dat het koopgedrag van de consument steeds meer online gebeurd. Door de enorme online concurrentie is het heel belangrijk om uw webshop perfect aan te laten sluiten bij het gedrag van uw doelgroep. Daarnaast wilt u natuurlijk ook dat uw organisatie en uw webshop gezien worden en opvallen. Daarom houden we tijdens het ontwerpen en ontwikkelen van uw webshop rekening met: conversie, gezien worden en opvallen. </p>
+            <p>In de digitale wereld van tegenwoordig schieten de webshops als paddenstoelen uit de grond. Veel ondernemers proberen hun product via de online kanalen bij hun doelgroep aan de man te krijgen. Deze trend is logisch, het zal je niet verrassen dat het koopgedrag van de consument steeds meer online gebeurd. Door de enorme online concurrentie is het heel belangrijk om je webshop perfect aan te laten sluiten bij het gedrag van je doelgroep. Daarnaast wil je natuurlijk ook dat jouw organisatie en webshop gezien worden en opvallen. Daarom houden we tijdens het ontwerpen en ontwikkelen van je webshop rekening met: conversie, gezien worden en opvallen. </p>
           </div>
 
           <!-- Accordions START -->
@@ -201,7 +201,7 @@
               </div>
               <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body accordion-body">
-                  Producten verkopen via uw webshop is het belangrijkste, en het liefste zoveel mogelijk natuurlijk. Daarbij is conversie een belangrijk onderdeel. We willen zoveel mogelijk bezoekers klanten laten worden. Belangrijke vragen daarbij zijn: Wie zijn uw bezoekers? Wanneer is uw bezoeker een klant? Samen kijken we naar de conversiedoelen van uw webshop en uw doelgroep. Op basis daarvan gaan we aan de slag om een conversiegericht ontwerp te maken en dit vervolgens technisch uit te werken.
+                  Producten verkopen via je webshop is het belangrijkste, en het liefste zoveel mogelijk natuurlijk. Daarbij is conversie een belangrijk onderdeel. We willen zoveel mogelijk bezoekers klanten laten worden. Belangrijke vragen daarbij zijn: Wie zijn je bezoekers? Wanneer is je bezoeker een klant? Samen kijken we naar de conversiedoelen van je webshop en je doelgroep. Op basis daarvan gaan we aan de slag om een conversiegericht ontwerp te maken en dit vervolgens technisch uit te werken.
                 </div>
               </div>
             </div>
@@ -217,7 +217,7 @@
               </div>
               <div id="collapseTwo" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body accordion-body">
-                  Goede online vindbaarheid is natuurlijk een must in de tijd waarin de webshops als paddenstoelen uit de grond groeien. Door uw shop goed vindbaar te maken voor uw doelgroep vergroot u de kans op goede afzet en omzet percentages. Als klanten uw webshop niet kunnen vinden is de kans klein dat u het gewenste resultaat haalt wat u wellicht vooraf verwacht. Een belangrijk onderdeel van online vindbaarheid zijn de zoekresultaten van Google. Hoe hoger u daar staat met uw shop hoe sneller potentiële klanten op uw webshop kunnen komen. Daarnaast zijn ook een aantal andere kanalen erg belangrijk geworden. Denk aan social media (Facebook, Twitter, Instagram etc.), maar ook het Google Shopping gedeelte wat steeds populairder en belangrijker wordt.
+                  Goede online vindbaarheid is natuurlijk een must in de tijd waarin de webshops als paddenstoelen uit de grond schieten. Door je shop goed vindbaar te maken voor je doelgroep vergroot je de kans op goede afzet en omzet percentages. Als klanten je webshop niet kunnen vinden is de kans klein dat je het gewenste resultaat haalt wat je wellicht vooraf verwacht. Een belangrijk onderdeel van online vindbaarheid zijn de zoekresultaten van Google. Hoe hoger je daar staat met je shop hoe sneller potentiële klanten op je webshop kunnen komen. Daarnaast zijn ook een aantal andere kanalen erg belangrijk geworden. Denk aan social media (Facebook, Twitter, Instagram etc.), maar ook het Google Shopping gedeelte wat steeds populairder en belangrijker wordt.
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@
               </div>
               <div id="collapseThree" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body accordion-body">
-                  Een goed converterende webshop begint bij een goed design. Maar wat is een goed design? Of sterker nog wanneer is een design ‘goed’? Wij bij Good Online vinden een design pas goed wanneer het naadloos aansluit op de wensen, gedrag en behoeften van uw doelgroep. Uw doelgroep is het allerbelangrijkste tijdens het ontwerpen van een webshop. Wanneer we met alle betrokken partijen tevreden zijn over het ontwerp begint de realisatiefase. Tijdens deze fase wordt het ontwerp technisch gerealiseerd en wordt ervoor gezorgd dat alle functionaliteiten zoals ze vooraf zijn bedacht technisch goed werken. Tijdens de realisatiefase wordt de webshop natuurlijk uitgebreid getest zodat alles op en top werkt. Als alles perfect werkt en naar tevredenheid getest is door alle partijen is de webshop klaar om gelanceerd te worden.
+                  Een goed converterende webshop begint bij een goed design. Maar wat is een goed design? Of sterker nog wanneer is een design ‘goed’? Wij bij Good Online vinden een design pas goed wanneer het naadloos aansluit op de wensen, gedrag en behoeften van je doelgroep. Je doelgroep is het allerbelangrijkste tijdens het ontwerpen van een webshop. Wanneer we met alle betrokken partijen tevreden zijn over het ontwerp begint de realisatiefase. Tijdens deze fase wordt het ontwerp technisch gerealiseerd en wordt ervoor gezorgd dat alle functionaliteiten zoals ze vooraf zijn bedacht technisch goed werken. Tijdens de realisatiefase wordt de webshop natuurlijk uitgebreid getest zodat alles op en top werkt. Als alles perfect werkt en naar tevredenheid getest is door alle partijen is de webshop klaar om gelanceerd te worden.
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@
               </div>
               <div id="collapseFour" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFour">
                 <div class="panel-body accordion-body">
-                  Een belangrijk onderdeel voor u als ondernemer aan een webshop is het beheren. U wil natuurlijk niet voor ieder ding wat er veranderd of toegevoegd moet worden dat u ons moet bellen om dat te doen. Wij zorgen er voor dat u de webshop volledig in eigen beheer heeft. Zo kunt u zelf uw producten, categorieën en andere dingen beheren.
+                  Een belangrijk onderdeel voor jou als ondernemer aan een webshop is het beheren. Je wil natuurlijk niet voor ieder ding wat er veranderd of toegevoegd moet worden dat je ons moet bellen om dat te doen. Wij zorgen er voor dat je de webshop volledig in eigen beheer hebt. Zo kun je zelf jouw producten, categorieën en andere dingen beheren.
                 </div>
               </div>
             </div>
@@ -265,7 +265,7 @@
               </div>
               <div id="collapseFive" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFive">
                 <div class="panel-body accordion-body">
-                  Buiten de standaard functionaliteiten van een webshop kan het natuurlijk zo zijn dat er extra of maatwerk functionaliteiten gebouwd moeten worden omdat uw doelgroep daar behoefte aan heeft of simpelweg omdat het een echte toevoeging aan uw webshop is. Wij als Good Online zijn gek op zulke extra functionaliteiten vanwege het feit dat wij hier nog meer van waarde kunnen zijn. Door onze technische expertises kunnen we bijna alle maatwerk functionaliteiten in uw webshop integreren zodat u echt een webshop heeft die uw doelgroep aantrekt.
+                  Buiten de standaard functionaliteiten van een webshop kan het natuurlijk zo zijn dat er extra of maatwerk functionaliteiten gebouwd moeten worden omdat je doelgroep daar behoefte aan heeft of simpelweg omdat het een echte toevoeging aan je webshop is. Wij als Good Online zijn gek op zulke extra functionaliteiten vanwege het feit dat wij hier nog meer van waarde kunnen zijn. Door onze technische expertises kunnen we bijna alle maatwerk functionaliteiten in je webshop integreren zodat je echt een webshop hebt die uw doelgroep aantrekt.
                 </div>
               </div>
             </div>
@@ -281,7 +281,7 @@
               </div>
               <div id="collapseSix" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingSix">
                 <div class="panel-body accordion-body">
-                  Het laatste punt in de samenwerking maar zeker niet het onbelangrijkste is de nazorg. Als uw webshop live staat wil dit niet zeggen dat we klaar zijn. De techniek veranderd in deze tijd ontzettend snel, zo ook de techniek waarmee uw webshop gebouwd is. Deze willen we graag up to date houden. Daarnaast kunnen wij het ons voorstellen dat er vragen op spelen tijdens het beheren of vullen van uw shop. Met die vragen kunt u natuurlijk altijd bij ons terecht.
+                  Het laatste punt in de samenwerking maar zeker niet het onbelangrijkste is de nazorg. Als je webshop live staat wil dit niet zeggen dat we klaar zijn. De techniek veranderd in deze tijd ontzettend snel, zo ook de techniek waarmee je webshop gebouwd is. Deze willen we graag up to date houden. Daarnaast kunnen wij het ons voorstellen dat er vragen op spelen tijdens het beheren of vullen van je webshop. Met die vragen kun je natuurlijk altijd bij ons terecht.
                 </div>
               </div>
             </div>
@@ -304,7 +304,7 @@
       <span>Zin in een kop koffie of thee?</span>
       <h2><strong>Maak kennis met ons!</strong></h2>
       <h4>Of stel gewoon een vraag ;-)</h4>
-      <a href="../contact.php" class="primary-button button-md mt-10">Neem contact op</a>
+      <a href="../contact" class="primary-button button-md mt-10">Neem contact op</a>
     </div>
   </div>
 </div>
@@ -319,7 +319,7 @@
         <h3>Good Online</h3>
         <div class="mt-25">
           <img src="../img/logo-white.png" id="footer-logo" alt="footer-logo">
-          <p class="mt-25">Wij zijn Good Online. Het bedrijf met passie voor alles wat digitaal en online is. Door onze liefde voor online in combinatie met kennis van de nieuwste technieken willen we het optimale resultaat uit uw probleem of vraagstuk halen.</p>
+          <p class="mt-25">Wij zijn Good Online. Het bedrijf met passie voor alles wat digitaal en online is. Door onze liefde voor online in combinatie met kennis van de nieuwste technieken willen we het optimale resultaat uit je probleem of vraagstuk halen.</p>
           <div class="footer-social-icons mt-25">
             <ul>
               <li><a href="https://www.facebook.com/Good-Online-101258787976703"><i class="fa fa-facebook-square"></i></a></li>
@@ -334,13 +334,13 @@
       <div class="col-md-3 col-sm-6 col-12">
         <h3>Linkjes</h3>
         <ul class="footer-list">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../over-ons.html">Over ons</a></li>
-          <li><a href="website-maken.php">Website maken</a></li>
-          <li><a href="webshop-maken.php">Webshop maken</a></li>
-          <li><a href="online-marketing.php">Online marketing</a></li>
-          <li><a href="../portfolio.html">Portfolio</a></li>
-          <li><a href="../contact.php">Contact</a></li>
+          <li><a href="../">Home</a></li>
+          <li><a href="../over-ons">Over ons</a></li>
+          <li><a href="website-maken">Website maken</a></li>
+          <li><a href="webshop-maken">Webshop maken</a></li>
+          <li><a href="online-marketing">Online marketing</a></li>
+          <li><a href="../portfolio">Portfolio</a></li>
+          <li><a href="../contact">Contact</a></li>
         </ul>
       </div>
       <!-- Column 2 End -->
