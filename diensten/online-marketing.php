@@ -102,13 +102,13 @@
 
 
 <!-- Page Title START -->
-<div class="page-title-section" style="background-image: url(../img/webshop-header-page.jpg);">
+<div class="page-title-section" style="background-image: url(../img/online-marketing-header-page.jpg);">
   <div class="container">
-    <h1>Webshop maken</h1>
+    <h1>Online marketing</h1>
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="#">Diensten</a></li>
-      <li><a href="webshop-maken.php">Webshop maken</a></li>
+      <li><a href="online-marketing.php">Online marketing</a></li>
     </ul>
   </div>
 </div>
@@ -129,8 +129,8 @@
           <div class="services-single-menu mt-30">
             <ul>
               <li><a href="website-maken.php">Website maken</a></li>
-              <li class="services-active"><a href="webshop-maken.php">Webshop maken</a></li>
-              <li><a href="online-marketing.php">Online marketing</a></li>
+              <li><a href="webshop-maken.php">Webshop maken</a></li>
+              <li class="services-active"><a href="online-marketing.php">Online marketing</a></li>
             </ul>
           </div>
           <!-- Vertical Menu END -->
@@ -149,11 +149,32 @@
             <div class="services-single-left-heading">
               <h4>Terugbel verzoek</h4>
             </div>
-            <form method="post" action="../sendcallback.php" class="callback-box-form mt-20">
+            <?php
+            if(isset($_POST['name']) && isset($_POST['phone']))
+                {
+                $name = trim($_POST["name"]);
+                $phone = trim($_POST["phone"]);
+                $email = 'krijnvdker@gmail.com';
+                if(strlen($name)<2) {
+                    print "<p>Vul je naam in.</p>";
+                }else if(strlen($phone)<2) {
+                    print  "<p>Vul een geldig telefoonnummer in.</p>";
+                }else{
+                            $headers =  'From: '.$email. "\r\n" .
+                                        'Reply-To: '.$email . "\r\n" .
+                                        'X-Mailer: PHP/' . phpversion();
+                    mail('krijnvdker@gmail.com','Terugbel verzoek',$phone,$headers);
+                    print "<p>Je terugbelverzoek is ingezonden. We komen zo snel mogelijk bij je terug.</p>";
+                }
+
+            }else{
+            ?>
+            <form method="post" action="" class="callback-box-form mt-20">
               <input type="text" name="name" placeholder="Naam">
               <input type="text" name="phone" placeholder="Telefoonnummer">
               <button type="submit">Verzoek sturen</button>
             </form>
+            <?php } ?>
           </div>
           <!-- Callback END -->
         </div>
@@ -164,7 +185,7 @@
       <div class="col-md-9 col-sm-8 col-12">
         <div class="services-single-right">
           <div class="text-content-big mt-20">
-            <p>In de digitale wereld van tegenwoordig schieten de webshops als paddenstoelen uit de grond. Veel ondernemers proberen hun product via de online kanalen bij hun doelgroep aan de man te krijgen. Deze trend is logisch, het zal u niet verrassen dat het koopgedrag van de consument steeds meer online gebeurd. Door de enorme online concurrentie is het heel belangrijk om uw webshop perfect aan te laten sluiten bij het gedrag van uw doelgroep. Daarnaast wilt u natuurlijk ook dat uw organisatie en uw webshop gezien worden en opvallen. Daarom houden we tijdens het ontwerpen en ontwikkelen van uw webshop rekening met: conversie, gezien worden en opvallen. </p>
+            <p>Online marketing is noodzakelijk om uw organisatie tot een succes te maken. Wat voor doel u ook heeft, online marketing is een must. Wil je de concurrenten achter je laten? Wil je jouw klanten voor een langere tijd aan je binden? Wil je zo veel mogelijk verkopen? Wil je dat je website bij zoveel mogelijk bezoekers terecht komt? Op deze vragen is allemaal het antwoord: Online marketing. Online marketing is op heel veel verschillende manieren in te vullen. Bij iedere organisatie past een andere manier. Daarnaast is een voordeel van online marketing dat het geen hoge investeringsdrempel hoeft te zijn. Met een relatief klein budget kunnen er goede resultaten behaald worden middels online marketing. Onze passie ligt bij het halen van de doelen die jullie als organisatie hebben. Pas als die doelen bereikt zijn, zijn wij tevreden!</p>
           </div>
 
           <!-- Accordions START -->
@@ -174,13 +195,13 @@
               <div class="panel-heading accordion-heading" role="tab" id="headingOne">
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Conversie, conversie, conversie
+                    Social Media
                   </a>
                 </h4>
               </div>
               <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body accordion-body">
-                  Producten verkopen via uw webshop is het belangrijkste, en het liefste zoveel mogelijk natuurlijk. Daarbij is conversie een belangrijk onderdeel. We willen zoveel mogelijk bezoekers klanten laten worden. Belangrijke vragen daarbij zijn: Wie zijn uw bezoekers? Wanneer is uw bezoeker een klant? Samen kijken we naar de conversiedoelen van uw webshop en uw doelgroep. Op basis daarvan gaan we aan de slag om een conversiegericht ontwerp te maken en dit vervolgens technisch uit te werken.
+                <div class="panel-body accordion-body"> 
+                  Social media is in de afgelopen jaren steeds belangrijker geworden. Niet alleen de ‘traditionele social media’ zoals Facebook en Twitter zijn belangrijk maar ook een medium als Snapchat is een belangrijk kanaal voor de jongere doelgroep bijvoorbeeld. Wij kunnen ons voorstellen dat u het lastig vindt om de social media kanalen in te richten en bij te houden voor uw organisatie. Wij kunnen u daarbij helpen. We helpen met het opzetten en inrichten van uw social media kanalen maar maken ook een planning voor uw content, wanneer kunt u wat plaatsen? Daarnaast zijn er steeds meer advertentiemogelijkheden op bijvoorbeeld Facebook en Instagram. Wij helpen u met het samenstellen van budgetten voor deze advertentiemogelijkheden en het vormgeven van de advertenties. 
                 </div>
               </div>
             </div>
@@ -190,13 +211,13 @@
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
                      aria-controls="collapseTwo">
-                     Goede online vindbaarheid
+                     Mailings
                   </a>
                 </h4>
               </div>
               <div id="collapseTwo" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body accordion-body">
-                  Goede online vindbaarheid is natuurlijk een must in de tijd waarin de webshops als paddenstoelen uit de grond groeien. Door uw shop goed vindbaar te maken voor uw doelgroep vergroot u de kans op goede afzet en omzet percentages. Als klanten uw webshop niet kunnen vinden is de kans klein dat u het gewenste resultaat haalt wat u wellicht vooraf verwacht. Een belangrijk onderdeel van online vindbaarheid zijn de zoekresultaten van Google. Hoe hoger u daar staat met uw shop hoe sneller potentiële klanten op uw webshop kunnen komen. Daarnaast zijn ook een aantal andere kanalen erg belangrijk geworden. Denk aan social media (Facebook, Twitter, Instagram etc.), maar ook het Google Shopping gedeelte wat steeds populairder en belangrijker wordt.
+                  Misschien wel een van de oudste online media kanalen: Mail! Mensen mailen al redelijk lang met elkaar. Doordat er met mail veel mensen in een keer te bereiken zijn is het een redelijk goedkope manier om uw product of dienst onder de aandacht te brengen. Wat verstaan we onder een mailing? In een mailing is veel mogelijk, maar de nieuwsbrief is het meest gebruikte voorbeeld. Maar hoe wordt er geld verdiend met een nieuwsbrief? De eerste mogelijkheid is een mailing sturen naar je hele klantenbestand. Hier komt vervolgens een percentage kliks uit waar uiteindelijk een sale uit voort kan komen. Daarnaast is het mogelijk om gericht te mailen. Zo kun je een persoon die een aantal keren de website heeft bezocht in de afgelopen dagen een extra mailing sturen met bijvoorbeeld een kortingscode waardoor hij overgehaald kan worden tot aankoop van het product of de dienst.
                 </div>
               </div>
             </div>
@@ -206,13 +227,13 @@
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
                      aria-controls="collapseThree">
-                     Van design tot een echte webshop
+                     SEO
                   </a>
                 </h4>
               </div>
               <div id="collapseThree" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body accordion-body">
-                  Een goed converterende webshop begint bij een goed design. Maar wat is een goed design? Of sterker nog wanneer is een design ‘goed’? Wij bij Good Online vinden een design pas goed wanneer het naadloos aansluit op de wensen, gedrag en behoeften van uw doelgroep. Uw doelgroep is het allerbelangrijkste tijdens het ontwerpen van een webshop. Wanneer we met alle betrokken partijen tevreden zijn over het ontwerp begint de realisatiefase. Tijdens deze fase wordt het ontwerp technisch gerealiseerd en wordt ervoor gezorgd dat alle functionaliteiten zoals ze vooraf zijn bedacht technisch goed werken. Tijdens de realisatiefase wordt de webshop natuurlijk uitgebreid getest zodat alles op en top werkt. Als alles perfect werkt en naar tevredenheid getest is door alle partijen is de webshop klaar om gelanceerd te worden.
+                  SEO, oftewel zoekmachine optimalisatie in het Nederlands. SEO zorgt ervoor dat potentiële klanten je website kunnen vinden als ze bijvoorbeeld zoeken in Google. Daarom is het heel belangrijk om je website goed in te richten voor Google. Zodat potentiële klanten jouw website of webshop eerder tegenkomen in Google dan die van je concurrent. Als de webshop of website na optimalisatie bovenaan staat in Google betekent het niet dat het klaar is. SEO is een doorlopend proces. Google verandert vaak haar algoritmes waardoor er andere zaken belangrijk worden om uw website of webshop hoog in Google te krijgen. Daarnaast zullen andere organisaties ook proberen hun websites of webshops zo hoog mogelijk in Google te krijgen. Het is zaak om deze organisaties voor te blijven.
                 </div>
               </div>
             </div>
@@ -222,13 +243,13 @@
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false"
                      aria-controls="collapseFour">
-                     Beheerbaarheid
+                     SEA
                   </a>
                 </h4>
               </div>
               <div id="collapseFour" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFour">
                 <div class="panel-body accordion-body">
-                  Een belangrijk onderdeel voor u als ondernemer aan een webshop is het beheren. U wil natuurlijk niet voor ieder ding wat er veranderd of toegevoegd moet worden dat u ons moet bellen om dat te doen. Wij zorgen er voor dat u de webshop volledig in eigen beheer heeft. Zo kunt u zelf uw producten, categorieën en andere dingen beheren.
+                  SEA, oftewel zoekmachine adverteren. Je kent ze waarschijnlijk wel, de bovenste advertenties in Google. Of de advertenties aan rechterkant van de zoekresultaten. Dit zijn de betaalde zoekresultaten. Er zijn een aantal redenen om te betalen voor je Google advertenties. De eerste is dat je direct resultaat krijgt. Om je website of webshop hoog in Google te krijgen met organische zoekresultaten (SEO) kost enige tijd. Met betaalde advertenties is dat niet het geval. Daarnaast heb je altijd een prominente plaats bovenin de zoekresultaten op de zoekwoorden die je instelt. Het laatste grote voordeel van SEA is dat je een specifieke doelgroep kan targetten met je zoekresultaten. Je kunt je advertentie bijvoorbeeld tonen aan mensen die uit een bepaald gebied of een bepaalde stad komen. Die advertentie kun je ook op een bepaald tijdstip tonen. 
                 </div>
               </div>
             </div>
@@ -238,13 +259,13 @@
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false"
                      aria-controls="collapseFive">
-                     Maatwerk
+                     Website optimalisatie
                   </a>
                 </h4>
               </div>
               <div id="collapseFive" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFive">
                 <div class="panel-body accordion-body">
-                  Buiten de standaard functionaliteiten van een webshop kan het natuurlijk zo zijn dat er extra of maatwerk functionaliteiten gebouwd moeten worden omdat uw doelgroep daar behoefte aan heeft of simpelweg omdat het een echte toevoeging aan uw webshop is. Wij als Good Online zijn gek op zulke extra functionaliteiten vanwege het feit dat wij hier nog meer van waarde kunnen zijn. Door onze technische expertises kunnen we bijna alle maatwerk functionaliteiten in uw webshop integreren zodat u echt een webshop heeft die uw doelgroep aantrekt.
+                  Is uw website of webshop wel ‘google-proof’? Behaald uw website of webshop niet de gewenste ranking in Google? De oorzaak van deze problemen zou wel eens aan de technische opbouw van uw website of webshop kunnen liggen. Laat uw website of webshop bij ons testen. Wij analyseren alle punten waar Google rekening mee houdt in haar ranking. Na de analyse maken we een plan met verbeterpunten waardoor uw website beter gaat presteren in de Google ranking.
                 </div>
               </div>
             </div>
@@ -254,13 +275,14 @@
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false"
                      aria-controls="collapseSix">
-                     Uitgebreide service en nazorg
+                     Web analytics (data)
                   </a>
                 </h4>
               </div>
               <div id="collapseSix" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingSix">
                 <div class="panel-body accordion-body">
-                  Het laatste punt in de samenwerking maar zeker niet het onbelangrijkste is de nazorg. Als uw webshop live staat wil dit niet zeggen dat we klaar zijn. De techniek veranderd in deze tijd ontzettend snel, zo ook de techniek waarmee uw webshop gebouwd is. Deze willen we graag up to date houden. Daarnaast kunnen wij het ons voorstellen dat er vragen op spelen tijdens het beheren of vullen van uw shop. Met die vragen kunt u natuurlijk altijd bij ons terecht.
+                  De hoeveelheid data die beschikbaar is voor alle online media is tegenwoordig heel erg veel. Maar wat kun je met die data? En waar kun je die data überhaupt vinden? We kunnen ons voorstellen dat dit vragen zijn waar jullie als organisatie het antwoord op schuldig moeten blijven. Geen probleem! Good Online is dé specialist op het gebied van online data. Wij analyseren welke data beschikbaar is en hoe die data bij kan dragen aan het succes van uw organisatie. 
+Wij analyseren niet alleen data maar maken die data ook voor uw organisatie inzichtelijk. Hierbij kan het gaan om een website, webshop maar ook social media bijvoorbeeld. Doordat u zelf meer inzicht krijg in de data van uw online media en deze data ook begrijpt kunt u zelf ook actie ondernemen op basis van die data.
                 </div>
               </div>
             </div>
@@ -283,7 +305,7 @@
       <span>Zin in een kop koffie of thee?</span>
       <h2><strong>Maak kennis met ons!</strong></h2>
       <h4>Of stel gewoon een vraag ;-)</h4>
-      <a href="../contact.php" class="primary-button button-md mt-10">Neem contact op</a>
+      <a href="contact.php" class="primary-button button-md mt-10">Neem contact op</a>
     </div>
   </div>
 </div>

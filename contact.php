@@ -87,9 +87,9 @@
         <li><a href="./over-ons.html">Over ons</a></li>
         <li><a href="#">Diensten</a>
           <ul class="nav-dropdown">
-            <li><a href="./diensten/website-maken.html">Website maken</a></li>
-            <li><a href="./diensten/webshop-maken.html">Webhop maken</a></li>
-            <li><a href="./diensten/online-marketing.html">Online marketing</a></li>
+            <li><a href="./diensten/website-maken.php">Website maken</a></li>
+            <li><a href="./diensten/webshop-maken.php">Webhop maken</a></li>
+            <li><a href="./diensten/online-marketing.php">Online marketing</a></li>
           </ul>
         </li>
         <li><a href="./portfolio.html">Portfolio</a></li>
@@ -162,7 +162,7 @@
       <div class="contact-form-box">
       
         <?php
-            if(isset($_POST['email']))
+        if(isset($_POST['email']))
             {
             $name = trim($_POST["name"]);
             $email = trim($_POST["email"]);
@@ -181,10 +181,10 @@
                                     'Reply-To: '.$email . "\r\n" .
                                     'X-Mailer: PHP/' . phpversion();
                 mail('krijnvdker@gmail.com',$subject,$message,$headers);
-                print "mail succesuffully sent";
+                print "Bericht is succesvol verzonden! We komen zo snel mogelijk bij je terug!";
             }
 
-        }
+        }else{
         ?>
         <!-- Form Start -->
         <form class="contact-form row" name="template-contactform" action="" method="post">
@@ -209,6 +209,8 @@
           </div>
         </form>
         <!-- Form End --> 
+        <?php }
+        ?>
       </div>
     </div>
   </div>
@@ -249,9 +251,9 @@
         <ul class="footer-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="over-ons.html">Over ons</a></li>
-          <li><a href="diensten/website-maken.html">Website maken</a></li>
-          <li><a href="diensten/webshop-maken.html">Webshop maken</a></li>
-          <li><a href="diensten/online-marketing.html">Online marketing</a></li>
+          <li><a href="diensten/website-maken.php">Website maken</a></li>
+          <li><a href="diensten/webshop-maken.php">Webshop maken</a></li>
+          <li><a href="diensten/online-marketing.php">Online marketing</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>

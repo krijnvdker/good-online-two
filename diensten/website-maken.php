@@ -100,15 +100,14 @@
 </header>
 <!-- Navbar END -->
 
-
 <!-- Page Title START -->
-<div class="page-title-section" style="background-image: url(../img/webshop-header-page.jpg);">
+<div class="page-title-section" style="background-image: url(../img/website-maken-header.jpg);">
   <div class="container">
-    <h1>Webshop maken</h1>
+    <h1>Website maken</h1>
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="#">Diensten</a></li>
-      <li><a href="webshop-maken.php">Webshop maken</a></li>
+      <li><a href="website-maken.php">Website maken</a></li>
     </ul>
   </div>
 </div>
@@ -128,8 +127,8 @@
           </div>
           <div class="services-single-menu mt-30">
             <ul>
-              <li><a href="website-maken.php">Website maken</a></li>
-              <li class="services-active"><a href="webshop-maken.php">Webshop maken</a></li>
+              <li class="services-active"><a href="website-maken.php">Website maken</a></li>
+              <li><a href="webshop-maken.php">Webshop maken</a></li>
               <li><a href="online-marketing.php">Online marketing</a></li>
             </ul>
           </div>
@@ -149,11 +148,32 @@
             <div class="services-single-left-heading">
               <h4>Terugbel verzoek</h4>
             </div>
-            <form method="post" action="../sendcallback.php" class="callback-box-form mt-20">
+            <?php
+            if(isset($_POST['name']) && isset($_POST['phone']))
+                {
+                $name = trim($_POST["name"]);
+                $phone = trim($_POST["phone"]);
+                $email = 'krijnvdker@gmail.com';
+                if(strlen($name)<2) {
+                    print "<p>Vul je naam in.</p>";
+                }else if(strlen($phone)<2) {
+                    print  "<p>Vul een geldig telefoonnummer in.</p>";
+                }else{
+                            $headers =  'From: '.$email. "\r\n" .
+                                        'Reply-To: '.$email . "\r\n" .
+                                        'X-Mailer: PHP/' . phpversion();
+                    mail('krijnvdker@gmail.com','Terugbel verzoek',$phone,$headers);
+                    print "<p>Je terugbelverzoek is ingezonden. We komen zo snel mogelijk bij je terug.</p>";
+                }
+
+            }else{
+            ?>
+            <form method="post" action="" class="callback-box-form mt-20">
               <input type="text" name="name" placeholder="Naam">
               <input type="text" name="phone" placeholder="Telefoonnummer">
               <button type="submit">Verzoek sturen</button>
             </form>
+            <?php } ?>
           </div>
           <!-- Callback END -->
         </div>
@@ -164,7 +184,7 @@
       <div class="col-md-9 col-sm-8 col-12">
         <div class="services-single-right">
           <div class="text-content-big mt-20">
-            <p>In de digitale wereld van tegenwoordig schieten de webshops als paddenstoelen uit de grond. Veel ondernemers proberen hun product via de online kanalen bij hun doelgroep aan de man te krijgen. Deze trend is logisch, het zal u niet verrassen dat het koopgedrag van de consument steeds meer online gebeurd. Door de enorme online concurrentie is het heel belangrijk om uw webshop perfect aan te laten sluiten bij het gedrag van uw doelgroep. Daarnaast wilt u natuurlijk ook dat uw organisatie en uw webshop gezien worden en opvallen. Daarom houden we tijdens het ontwerpen en ontwikkelen van uw webshop rekening met: conversie, gezien worden en opvallen. </p>
+            <p>Een website is het digitale uithangbord voor uw organisatie. Wij helpen u om dit goed vorm te geven en neer te zetten. Met onze expertise en uw doelen willen we een website maken die optimaal past bij uw doelgroep. Daarvoor gaan we eerst met u in gesprek over de doelen die u wil bereiken met de website. Heeft u daar geen duidelijk beeld van? Geen probleem, we bespreken samen wat de mogelijke doelen kunnen zijn. Op basis van die doelen en de doelgroep gaan we aan de slag om het perfecte plaatje neer te zetten.</p>
           </div>
 
           <!-- Accordions START -->
@@ -174,13 +194,13 @@
               <div class="panel-heading accordion-heading" role="tab" id="headingOne">
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Conversie, conversie, conversie
+                    Makkelijk te beheren
                   </a>
                 </h4>
               </div>
               <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body accordion-body">
-                  Producten verkopen via uw webshop is het belangrijkste, en het liefste zoveel mogelijk natuurlijk. Daarbij is conversie een belangrijk onderdeel. We willen zoveel mogelijk bezoekers klanten laten worden. Belangrijke vragen daarbij zijn: Wie zijn uw bezoekers? Wanneer is uw bezoeker een klant? Samen kijken we naar de conversiedoelen van uw webshop en uw doelgroep. Op basis daarvan gaan we aan de slag om een conversiegericht ontwerp te maken en dit vervolgens technisch uit te werken.
+                  Wij zorgen er voor dat de website die we leveren altijd makkelijk te beheren is door u of een werknemer van uw. Dat wil zeggen dat we er voor zorgen dat er een systeem achter zit wat bij uw website past. In het systeem wat erachter zit kunt u zelf teksten, afbeeldingen en allerlei andere dingen bijhouden en aanpassen. 
                 </div>
               </div>
             </div>
@@ -188,15 +208,15 @@
             <div class="panel panel-default accordion">
               <div class="panel-heading accordion-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title accordion-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"
                      aria-controls="collapseTwo">
-                     Goede online vindbaarheid
+                     Van ontwerp tot realisatie
                   </a>
                 </h4>
               </div>
               <div id="collapseTwo" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body accordion-body">
-                  Goede online vindbaarheid is natuurlijk een must in de tijd waarin de webshops als paddenstoelen uit de grond groeien. Door uw shop goed vindbaar te maken voor uw doelgroep vergroot u de kans op goede afzet en omzet percentages. Als klanten uw webshop niet kunnen vinden is de kans klein dat u het gewenste resultaat haalt wat u wellicht vooraf verwacht. Een belangrijk onderdeel van online vindbaarheid zijn de zoekresultaten van Google. Hoe hoger u daar staat met uw shop hoe sneller potentiële klanten op uw webshop kunnen komen. Daarnaast zijn ook een aantal andere kanalen erg belangrijk geworden. Denk aan social media (Facebook, Twitter, Instagram etc.), maar ook het Google Shopping gedeelte wat steeds populairder en belangrijker wordt.
+                  Een website is een uithangbord voor uw organisatie. Daarom kan het niet zo zijn dat ierdere website hetzelfde is. We voorzien iedere website van een uniek design wat herkenbaar is voor uw organisatie en wat naadloos aansluit op de doelen en doelgroep van uw organisatie. Nadat jullie als klant en wij als designpartner tevreden zijn over het uiteindelijke ontwerp begint de technische fase. Hierin gaan we zorgen dat het unieke ontwerp wat is gemaakt technisch perfect wordt gerealiseerd met een beheersysteem erachter. Door onze technische kennis en vaardigheden kunnen we u garanderen dat de website technisch perfect werkt.
                 </div>
               </div>
             </div>
@@ -206,13 +226,13 @@
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
                      aria-controls="collapseThree">
-                     Van design tot een echte webshop
+                     Maatwerk mogelijkheden
                   </a>
                 </h4>
               </div>
               <div id="collapseThree" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body accordion-body">
-                  Een goed converterende webshop begint bij een goed design. Maar wat is een goed design? Of sterker nog wanneer is een design ‘goed’? Wij bij Good Online vinden een design pas goed wanneer het naadloos aansluit op de wensen, gedrag en behoeften van uw doelgroep. Uw doelgroep is het allerbelangrijkste tijdens het ontwerpen van een webshop. Wanneer we met alle betrokken partijen tevreden zijn over het ontwerp begint de realisatiefase. Tijdens deze fase wordt het ontwerp technisch gerealiseerd en wordt ervoor gezorgd dat alle functionaliteiten zoals ze vooraf zijn bedacht technisch goed werken. Tijdens de realisatiefase wordt de webshop natuurlijk uitgebreid getest zodat alles op en top werkt. Als alles perfect werkt en naar tevredenheid getest is door alle partijen is de webshop klaar om gelanceerd te worden.
+                  Wij maken websites in de breedste zin van het woord. Van kleine informatieve websites tot grote maatwerk websites met hun compleet eigen functionaliteiten. Binnen een website zijn talloze maatwerk mogelijkheden.
                 </div>
               </div>
             </div>
@@ -222,13 +242,13 @@
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false"
                      aria-controls="collapseFour">
-                     Beheerbaarheid
+                     Zoekmachine vriendelijk
                   </a>
                 </h4>
               </div>
               <div id="collapseFour" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFour">
                 <div class="panel-body accordion-body">
-                  Een belangrijk onderdeel voor u als ondernemer aan een webshop is het beheren. U wil natuurlijk niet voor ieder ding wat er veranderd of toegevoegd moet worden dat u ons moet bellen om dat te doen. Wij zorgen er voor dat u de webshop volledig in eigen beheer heeft. Zo kunt u zelf uw producten, categorieën en andere dingen beheren.
+                  Bij alle websites die we opleveren staat zoekmachine vriendelijkheid heel hoog in het vaandel. In de tijd waarin we leven met een online moordende concurrentie is het heel belangrijk dat u als organisatie met uw website goed gevonden wordt in Google. Is dat niet het geval? Dan wordt u voorbij gestreefd door de concurrentie en daalt het rendement van de website enorm. Omdat het zo belangrijk is om goed gevonden te worden op Google, zorgen wij ervoor dat de website daar ook goed op ingericht is. Zowel op technisch gebied als op ontwerp gebied. Daarnaast vertellen we u alle dingen die u moet weten en zelf kunt doen om uw website zo hoog mogelijk in Google te krijgen. 
                 </div>
               </div>
             </div>
@@ -238,29 +258,13 @@
                 <h4 class="panel-title accordion-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false"
                      aria-controls="collapseFive">
-                     Maatwerk
+                     Uitgebreide service en nazorg
                   </a>
                 </h4>
               </div>
               <div id="collapseFive" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingFive">
                 <div class="panel-body accordion-body">
-                  Buiten de standaard functionaliteiten van een webshop kan het natuurlijk zo zijn dat er extra of maatwerk functionaliteiten gebouwd moeten worden omdat uw doelgroep daar behoefte aan heeft of simpelweg omdat het een echte toevoeging aan uw webshop is. Wij als Good Online zijn gek op zulke extra functionaliteiten vanwege het feit dat wij hier nog meer van waarde kunnen zijn. Door onze technische expertises kunnen we bijna alle maatwerk functionaliteiten in uw webshop integreren zodat u echt een webshop heeft die uw doelgroep aantrekt.
-                </div>
-              </div>
-            </div>
-
-            <div class="panel panel-default accordion">
-              <div class="panel-heading accordion-heading" role="tab" id="headingSix">
-                <h4 class="panel-title accordion-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false"
-                     aria-controls="collapseSix">
-                     Uitgebreide service en nazorg
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseSix" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingSix">
-                <div class="panel-body accordion-body">
-                  Het laatste punt in de samenwerking maar zeker niet het onbelangrijkste is de nazorg. Als uw webshop live staat wil dit niet zeggen dat we klaar zijn. De techniek veranderd in deze tijd ontzettend snel, zo ook de techniek waarmee uw webshop gebouwd is. Deze willen we graag up to date houden. Daarnaast kunnen wij het ons voorstellen dat er vragen op spelen tijdens het beheren of vullen van uw shop. Met die vragen kunt u natuurlijk altijd bij ons terecht.
+                  Als de website live staat zijn we niet klaar. In de eerste plaats laten we u zien hoe u uw website beheert en zelf kunt onderhouden. Daarnaast bieden wij vanzelfsprekend support voor de producten die wij leveren, dus mocht er iets niet duidelijk zijn of problemen zijn dan zorgen we altijd voor een gepaste oplossing. Daarnaast is het altijd mogelijk om uw website in een later stadium door te ontwikkelen.
                 </div>
               </div>
             </div>
@@ -281,7 +285,7 @@
   <div class="container">
     <div class="section-heading center-holder white-color">
       <span>Zin in een kop koffie of thee?</span>
-      <h2><strong>Maak kennis met ons!</strong></h2>
+      <h2><strong>Maak kennis met ons!</strong></h2>  
       <h4>Of stel gewoon een vraag ;-)</h4>
       <a href="../contact.php" class="primary-button button-md mt-10">Neem contact op</a>
     </div>

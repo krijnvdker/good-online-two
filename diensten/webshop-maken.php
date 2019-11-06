@@ -149,11 +149,32 @@
             <div class="services-single-left-heading">
               <h4>Terugbel verzoek</h4>
             </div>
-            <form method="post" action="../sendcallback.php" class="callback-box-form mt-20">
+            <?php
+            if(isset($_POST['name']) && isset($_POST['phone']))
+                {
+                $name = trim($_POST["name"]);
+                $phone = trim($_POST["phone"]);
+                $email = 'krijnvdker@gmail.com';
+                if(strlen($name)<2) {
+                    print "<p>Vul je naam in.</p>";
+                }else if(strlen($phone)<2) {
+                    print  "<p>Vul een geldig telefoonnummer in.</p>";
+                }else{
+                            $headers =  'From: '.$email. "\r\n" .
+                                        'Reply-To: '.$email . "\r\n" .
+                                        'X-Mailer: PHP/' . phpversion();
+                    mail('krijnvdker@gmail.com','Terugbel verzoek',$phone,$headers);
+                    print "<p>Je terugbelverzoek is ingezonden. We komen zo snel mogelijk bij je terug.</p>";
+                }
+
+            }else{
+            ?>
+            <form method="post" action="" class="callback-box-form mt-20">
               <input type="text" name="name" placeholder="Naam">
               <input type="text" name="phone" placeholder="Telefoonnummer">
               <button type="submit">Verzoek sturen</button>
             </form>
+            <?php } ?>
           </div>
           <!-- Callback END -->
         </div>
